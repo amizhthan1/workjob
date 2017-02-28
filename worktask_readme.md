@@ -34,3 +34,8 @@ select all the posts and   count posts:    http://localhost/workjob/public/tags/
 	"response":[{"id":5,"name":"dfgdf","created_at":"2017-02-26 07:36:09","updated_at":"2017-02-26 07:36:09","posts":[{"id":13,"title":"dfgdf","body":"fdgdfg","created_at":"2017-02-26 07:43:55","updated_at":"2017-02-26 07:43:55","pivot":{"tag_id":5,"post_id":13}},{"id":14,"title":"dfgdf","body":"fdgdfg","created_at":"2017-02-26 07:43:56","updated_at":"2017-02-26 07:43:56","pivot":{"tag_id":5,"post_id":14}},{"id":15,"title":"dfgdf","body":"fdgdfg","created_at":"2017-02-26 07:43:57","updated_at":"2017-02-26 07:43:57","pivot":{"tag_id":5,"post_id":15}},{"id":16,"title":"dfgdf","body":"fdgdfg","created_at":"2017-02-26 07:44:01","updated_at":"2017-02-26 07:44:01","pivot":{"tag_id":5,"post_id":16}}]}]}
 
 "post_count":4
+
+
+1.  After any post created the system send email. but localsystem can't able to send mail so when create new post the system should log information. (path: storage/logs/laravel.txt).
+
+2. Any post has been removed, post title stored in log file  (path: storage/logs/laravel.txt).
